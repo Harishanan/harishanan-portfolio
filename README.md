@@ -3,7 +3,7 @@
 A **modern, performant, and scalable personal portfolio** built with React, JavaScript, TailwindCSS, and Vite — designed to showcase professional skills, projects, and experience with an emphasis on clean architecture, responsive design, and best development practices.
 
 <p align="center">
-  <img src="assets/portfolio-header.png" alt="Portfolio Preview" width="100%" />
+  <img src="public/assets/portfolio-header.png" alt="Portfolio Preview" width="100%" />
 </p>
 
 ---
@@ -67,11 +67,12 @@ The goal: present my professional profile with **fast load times, accessibility,
 
 ## Development Setup
 
-```bash
+```
 git clone https://github.com/harishanan/harishanan-portfolio.git
 cd harishanan-portfolio
 npm install
 npm run dev
+```
 
 - Runs the app locally with Vite on [http://localhost:5173](http://localhost:5173).
 - Hot module replacement ensures immediate reflection of code changes.
@@ -83,8 +84,9 @@ npm run dev
 
 ### Production Build
 
-```bash
+```
 npm run build
+```
 
 - Generates highly optimized static assets in the `/dist` directory.  
 - Assets are minified, code-split, and cache-busted for maximum performance.
@@ -100,6 +102,7 @@ npm run build
   "predeploy": "npm run build",
   "deploy": "gh-pages -d dist"
 }
+```
 
 - Run **npm run deploy** to publish updates seamlessly.
 
