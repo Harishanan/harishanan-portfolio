@@ -1,12 +1,135 @@
-# React + Vite
+# Harishanan's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **modern, performant, and scalable personal portfolio** built with React, JavaScript, TailwindCSS, and Vite — designed to showcase professional skills, projects, and experience with an emphasis on clean architecture, responsive design, and best development practices.
 
-Currently, two official plugins are available:
+<p align="center">
+  <img src="assets/portfolio-header.png" alt="Portfolio Preview" width="100%" />
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Table of Contents
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [Project Overview](#project-overview)  
+- [Technical Architecture](#technical-architecture)  
+- [Key Features](#key-features)  
+- [Development Setup](#development-setup)  
+- [Build & Deployment](#build--deployment)  
+- [Tech References](#tech-references)  
+- [Accessibility Note](#accessibility-note)
+
+---
+
+## Project Overview
+
+This portfolio is implemented as a **Single Page Application (SPA)** leveraging React’s component-based architecture. It delivers an intuitive UI/UX optimized for desktop and mobile devices, with state-of-the-art frontend technologies and tooling.
+
+The goal: present my professional profile with **fast load times, accessibility, and maintainable code**—all crucial for a strong developer portfolio.
+
+---
+
+## Technical Architecture
+
+- **React (v19) with JavaScript**  
+  Strong typing enhances maintainability, scalability, and developer productivity. Functional components with hooks drive UI logic and state management.
+
+- **TailwindCSS**  
+  Utility-first CSS framework for modular, responsive styling with minimal CSS file sizes. Dark mode support implemented with Tailwind’s theming.
+
+- **Vite**  
+  Modern, lightning-fast development server and build tool leveraging ES modules, resulting in near-instant hot module replacement (HMR) and optimized production builds.
+
+- **Lucide Icons & Radix UI Primitives**  
+  Lightweight, accessible UI primitives and iconography for consistent visual language and ARIA-compliant interactive components.
+
+- **Form Handling & Notifications**  
+  Efficient form state management and validation with React Hook Form. Toast notifications provide user feedback for contact form submissions.
+
+- **EmailJS Integration**  
+  Secure, client-side email sending for contact form without backend dependency.
+
+- **Routing**  
+  `react-router-dom` enables scalable and maintainable page structure. Smooth in-page navigation is handled via native anchor links and CSS scroll behavior.
+
+---
+
+## Key Features
+
+- **Dark/Light Mode with Persistent Theme Preference** — Local storage backed with seamless UI transitions.  
+- **Animated Interactive Backgrounds** — Optimised CSS and React-based animations for engaging UI without compromising performance.  
+- **Responsive Design & Accessibility** — Mobile-first approach with ARIA roles and keyboard navigation support.  
+- **Project Showcase** — Dynamically rendered project cards with tech stack tags and GitHub/demo links.  
+- **Contact Form with Real-Time Validation & Notifications** — Enhances user engagement and lead capture.  
+- **One-Click Deployment via GitHub Pages** — Fully automated deployment using `gh-pages` package and Vite build outputs.  
+
+
+---
+
+## Development Setup
+
+```bash
+git clone https://github.com/harishanan/harishanan-portfolio.git
+cd harishanan-portfolio
+npm install
+npm run dev
+
+- Runs the app locally with Vite on [http://localhost:5173](http://localhost:5173).
+- Hot module replacement ensures immediate reflection of code changes.
+- Linting and formatting via ESLint and Prettier (configurable).
+
+---
+
+## Build & Deployment
+
+### Production Build
+
+```bash
+npm run build
+
+- Generates highly optimized static assets in the `/dist` directory.  
+- Assets are minified, code-split, and cache-busted for maximum performance.
+
+## GitHub Pages Deployment
+
+- Uses `gh-pages` npm package for deploying the `/dist` directory to the `gh-pages` branch.  
+- Configure `vite.config.ts` with appropriate `base` path matching the GitHub Pages repo URL.  
+- Deployment script example in `package.json`:
+
+```json
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
+
+- Run **npm run deploy** to publish updates seamlessly.
+
+---
+
+## 🛠️ Tech References
+
+- [React](https://reactjs.org/) – Component-based UI library  
+- [Vite](https://vitejs.dev/) – Fast build tool and development server  
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework  
+- [Lucide Icons](https://lucide.dev/) – Open-source icon set  
+- [Radix UI](https://www.radix-ui.com/) – Accessible UI primitives  
+- [React Router](https://reactrouter.com/) – Declarative routing for React  
+- [gh-pages](https://www.npmjs.com/package/gh-pages) – GitHub Pages deployment tool  
+- [EmailJS](https://www.emailjs.com/) – Email service integration in frontend  
+- [ESLint](https://eslint.org/) – JavaScript linting utility  
+- [Prettier](https://prettier.io/) – Code formatter  
+- [GitHub Pages](https://pages.github.com/) – Static site hosting 
+
+
+---
+
+## ♿ Accessibility Note
+
+**ARIA-compliant** refers to following the **Accessible Rich Internet Applications (ARIA)** standards, as defined by the [WAI-ARIA specification](https://www.w3.org/TR/wai-aria/).
+
+In simple terms, ARIA-compliant interactive components are:
+
+- **Accessible to screen readers** — allowing visually impaired users to understand and navigate the interface.
+- **Keyboard-navigable** — ensuring functionality without relying on a mouse.
+- **Informative to assistive technologies** — exposing roles, states, and labels for better usability.
+
+Using tools like **Radix UI** ensures that components are built with accessibility best practices in mind, reducing barriers and improving UX for all users.
