@@ -21,6 +21,7 @@ const skills = [
   { name: "Spring MVC", level: 80, category: "architecture" },
   { name: "Microservices", level: 75, category: "architecture" },
   { name: "Service-Oriented Architecture (SOA)", level: 75, category: "architecture" },
+  { name: "Model-Driven Architecture (MDA)", level: 75, category: "architecture" },
 
   // Tools & Methodologies
   { name: "Git/GitHub", level: 80, category: "tools" },
@@ -53,7 +54,7 @@ export const SkillsSection = () => {
               key={key}
               onClick={() => setActiveCategory(category)}
               className={cn(
-                "px-5 py-2 rounded-full transition-colors duration-300 capitalize",
+                "px-5 py-2 rounded-full transition-colors duration-300 capitalize cursor-pointer",
                 activeCategory === category
                   ? "bg-primary text-primary-foreground"
                   : "bg-secondary/70 text-forefround hover:bd-secondary"
