@@ -11,7 +11,7 @@ export const HeroSection = () => {
           {/* Profile Image */}
           <div className="flex justify-center mb-6">
             <img
-              src="src/assets/Harishanan.jpg"
+              src="public/assets/Harishanan.jpg"
               alt="Harishanan Thevarajah Profile"
               className="w-34 h-34 md:w-40 md:h-40 rounded-full object-cover border-4 border-primary shadow-lg opacity-0 animate-fade-in"
             />
