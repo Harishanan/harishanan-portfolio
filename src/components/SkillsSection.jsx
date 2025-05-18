@@ -17,9 +17,10 @@ const skills = [
   { name: "PostgreSQL", level: 75, category: "backend" },
   { name: "REST API", level: 85, category: "backend" },
 
-  // AI & Integrations
-  { name: "OpenAI API", level: 85, category: "aI" },
-  { name: "Gemini API", level: 85, category: "aI" },
+  // Architecture
+  { name: "Spring MVC", level: 80, category: "architecture" },
+  { name: "Microservices", level: 75, category: "architecture" },
+  { name: "Service-Oriented Architecture (SOA)", level: 75, category: "architecture" },
 
   // Tools & Methodologies
   { name: "Git/GitHub", level: 80, category: "tools" },
@@ -31,7 +32,7 @@ const skills = [
   { name: "JSON/XML", level: 80, category: "tools" },
 ];
 
-const categories = ["all", "frontend", "backend", "aI", "tools"];
+const categories = ["all", "frontend", "backend", "architecture", "tools"];
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
