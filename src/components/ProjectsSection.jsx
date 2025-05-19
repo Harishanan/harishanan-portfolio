@@ -29,7 +29,16 @@ const projects = [
     githubUrl: "https://github.com/Harishanan/AI-Email-Writer",
   },
   {
-    id: 4,
+  id: 4,
+  title: "OAuth2 Login System",
+  description: "A full-stack web app demonstrating secure OAuth2 authentication with GitHub and Google using Spring Boot and React.",
+  image: "assets/OAuth2-Spring.gif", 
+  tags: ["Spring Boot", "OAuth2", "React", "Google Login", "GitHub Login", "Spring Security"],
+  demoUrl: "#",
+  githubUrl: "#",
+  },
+  {
+    id: 5,
     title: "Sushi Website",
     description: "A simple Sushi-themed landing page built to get hands-on practice with HTML and CSS",
     image: "assets/Sushi-website.gif",
