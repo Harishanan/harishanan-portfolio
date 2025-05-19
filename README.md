@@ -139,7 +139,6 @@ npm run build
 - **Responsive Design:** Your TailwindCSS-based layout adjusts well across devices.  
 - **Clear Structure & Contrast:** The use of dark/light mode, semantic sections (Hero, Projects, Contact), and visible interactive elements all help with accessibility.  
 
-> 📌 **Tip:** For next-level accessibility, you could add `aria-labels`, test with tools like Lighthouse or axe, and improve keyboard tab order in your Contact form.
 
 ### Maintainable Code
 - **Component-Based Architecture (React):** Easy to reuse and update sections like Hero, Projects, etc.  
