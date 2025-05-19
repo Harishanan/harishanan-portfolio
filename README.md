@@ -91,7 +91,7 @@ npm run build
 - Generates highly optimized static assets in the `/dist` directory.  
 - Assets are minified, code-split, and cache-busted for maximum performance.
 
-## GitHub Pages Deployment
+### GitHub Pages Deployment
 
 - Uses `gh-pages` npm package for deploying the `/dist` directory to the `gh-pages` branch.  
 - Configure `vite.config.ts` with appropriate `base` path matching the GitHub Pages repo URL.  
@@ -108,7 +108,7 @@ npm run build
 
 ---
 
-## 🛠️ Tech References
+## 🛠️Tech References
 
 - [React](https://reactjs.org/) – Component-based UI library  
 - [Vite](https://vitejs.dev/) – Fast build tool and development server  
@@ -125,7 +125,7 @@ npm run build
 
 ---
 
-## ♿ Accessibility Note
+## ♿Accessibility Note
 
 **ARIA-compliant** refers to following the **Accessible Rich Internet Applications (ARIA)** standards, as defined by the [WAI-ARIA specification](https://www.w3.org/TR/wai-aria/).
 
