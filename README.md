@@ -16,6 +16,7 @@ A **modern, performant, and scalable personal portfolio** built with React, Java
 - [Development Setup](#development-setup)  
 - [Build & Deployment](#build--deployment)  
 - [Tech References](#tech-references)  
+- [Project Highlights](#project-highlights)
 - [Accessibility Note](#accessibility-note)
 
 ---
@@ -122,6 +123,29 @@ npm run build
 - [Prettier](https://prettier.io/) – Code formatter  
 - [GitHub Pages](https://pages.github.com/) – Static site hosting 
 
+
+---
+
+
+## ✅Project Highlights
+
+### Fast Load Times
+- **Vite:** Your app uses Vite, a modern frontend build tool known for fast dev server startup and optimized production builds.  
+- **Code-splitting & Caching:** Vite’s production build includes tree-shaking, minification, and cache-busting file names.  
+- **GitHub Pages:** Hosting on GitHub Pages provides good CDN-level performance for static sites.
+
+### Accessibility
+- **Radix UI Primitives:** These are designed with accessibility in mind—ensuring ARIA roles, keyboard navigation, and screen reader compatibility.  
+- **Responsive Design:** Your TailwindCSS-based layout adjusts well across devices.  
+- **Clear Structure & Contrast:** The use of dark/light mode, semantic sections (Hero, Projects, Contact), and visible interactive elements all help with accessibility.  
+
+> 📌 **Tip:** For next-level accessibility, you could add `aria-labels`, test with tools like Lighthouse or axe, and improve keyboard tab order in your Contact form.
+
+### Maintainable Code
+- **Component-Based Architecture (React):** Easy to reuse and update sections like Hero, Projects, etc.  
+- **Tailwind CSS:** Keeps styling atomic and inside components, avoiding messy CSS files.  
+- **ESLint & Prettier:** Included for code quality and consistent formatting.  
+- **Modular File Structure:** Logical file grouping helps onboard others or future-you.
 
 ---
 
