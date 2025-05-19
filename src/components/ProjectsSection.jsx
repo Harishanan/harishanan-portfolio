@@ -28,6 +28,15 @@ const projects = [
     demoUrl: "https://github.com/Harishanan/AI-Email-Writer",
     githubUrl: "https://github.com/Harishanan/AI-Email-Writer",
   },
+  {
+    id: 4,
+    title: "Sushi Website",
+    description: "A simple Sushi-themed landing page built to get hands-on practice with HTML and CSS",
+    image: "assets/Sushi-website.gif",
+    tags: ["HTML5", "CSS3", "React + Vite", "AOS (Animate on Scroll)"],
+    demoUrl: "https://dainty-beignet-699ae3.netlify.app/",
+    githubUrl: "https://github.com/Harishanan/Sushi-Website",
+  },
 ];
 
 export const ProjectsSection = () => {
