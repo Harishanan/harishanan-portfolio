@@ -25,8 +25,8 @@ const projects = [
     description: "Backend service to track subscriptions with reminders, email alerts, and MongoDB using Node.js and Upstash.",
     image: "assets/SubscriptionTracker-API.gif",
     tags: ["Node.js", "Express", "MongoDB", "Arcjet", "Workflow Automation"],
-    demoUrl: "https://github.com/Harishanan/AI-Email-Writer",
-    githubUrl: "https://github.com/Harishanan/AI-Email-Writer",
+    demoUrl: "https://github.com/Harishanan/Subscription-Tracker",
+    githubUrl: "https://github.com/Harishanan/Subscription-Tracker",
   },
   {
     id: 4,
