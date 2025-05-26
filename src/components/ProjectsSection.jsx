@@ -21,6 +21,15 @@ const projects = [
   },
   {
     id: 3,
+    title: "TrackMySubs – Subscription Tracker API",
+    description: "Backend service to track subscriptions with reminders, email alerts, and MongoDB using Node.js and Upstash.",
+    image: "assets/SubscriptionTracker-API.gif",
+    tags: ["Node.js", "Express", "MongoDB", "Arcjet", "Workflow Automation"],
+    demoUrl: "https://github.com/Harishanan/AI-Email-Writer",
+    githubUrl: "https://github.com/Harishanan/AI-Email-Writer",
+  },
+  {
+    id: 4,
     title: "AI-Powered Gmail Extension",
     description: "A Chrome extension for AI-driven email drafting in Gmail, using React, Spring Boot, and Google Gemini API.",
     image: "assets/ai-email-assistant.gif",
@@ -29,7 +38,7 @@ const projects = [
     githubUrl: "https://github.com/Harishanan/AI-Email-Writer",
   },
   {
-  id: 4,
+  id: 5,
   title: "OAuth2 Login System",
   description: "A full-stack web app demonstrating secure OAuth2 authentication with GitHub and Google using Spring Boot and React.",
   image: "assets/OAuth2-Spring.gif", 
@@ -38,7 +47,7 @@ const projects = [
   githubUrl: "#",
   },
   {
-    id: 5,
+    id: 6,
     title: "Sushi Website",
     description: "A simple Sushi-themed landing page built to get hands-on practice with HTML and CSS",
     image: "assets/Sushi-website.gif",
