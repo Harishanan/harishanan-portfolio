@@ -5,17 +5,21 @@ const skills = [
   // Frontend
   { name: "HTML/CSS", level: 80, category: "frontend" },
   { name: "JavaScript", level: 70, category: "frontend" },
+  { name: "TypeScript", level: 70, category: "frontend" },
   { name: "React", level: 80, category: "frontend" },
+  { name: "NextJs 15", level: 70, category: "frontend" },
   { name: "Bootstrap", level: 80, category: "frontend" },
   { name: "Tailwind", level: 70, category: "frontend" },
 
   // Backend
   { name: "Java", level: 85, category: "backend" },
+  { name: "Python", level: 75, category: "backend" },
   { name: "Spring Boot", level: 85, category: "backend" },
   { name: "SQL (MySQL)", level: 85, category: "backend" },
   { name: "NoSQL (MongoDB)", level: 75, category: "backend" },
   { name: "PostgreSQL", level: 75, category: "backend" },
   { name: "REST API", level: 85, category: "backend" },
+  { name: "FAST API", level: 80, category: "backend" },
 
   // Architecture
   { name: "Spring MVC", level: 80, category: "architecture" },
