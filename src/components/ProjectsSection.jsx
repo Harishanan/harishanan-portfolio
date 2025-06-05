@@ -57,6 +57,15 @@ const projects = [
   },
   {
     id: 7,
+    title: "Dr Knee Movo",
+    description: "Wearable device tracking knee motion to aid rehabilitation using ESP32, sensors, and MATLAB.",
+    image: "assets/DrKneeMovo.gif",
+    tags: ["IoT", "C", "Arduino Nano ESP32", "MPU9250", "Kalman Filter", "MATLAB App Designer", "MySQL"],
+    demoUrl: "https://github.com/Harishanan/Knee-Range-of-Motion-Device", 
+    githubUrl: "https://github.com/Harishanan/Knee-Range-of-Motion-Device",
+  },
+  {
+    id: 8,
     title: "Sushi Website",
     description: "A simple Sushi-themed landing page built to get hands-on practice with HTML and CSS",
     image: "assets/Sushi-website.gif",
