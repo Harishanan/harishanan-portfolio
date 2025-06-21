@@ -11,13 +11,13 @@ const projects = [
     githubUrl: "#",
   },
   {
-  id: 2,
-  title: "EchoMind LMS SaaS",
-  description: "A Next.js-powered Learning Management System with Clerk auth, Supabase, Stripe billing, and Vapi AI voice agents for interactive learning.",
-  image: "assets/EchoMind.gif", 
-  tags: ["Next.js", "TypeScript", "TailwindCSS", "Clerk", "Supabase", "Stripe", "Vapi", "AI Voice"],
-  demoUrl: "https://echo-mind-saas-app.vercel.app/",
-  githubUrl: "https://github.com/Harishanan/EchoMind-Saas-App",
+    id: 2,
+    title: "EchoMind LMS SaaS",
+    description: "A Next.js-powered Learning Management System with Clerk auth, Supabase, Stripe billing, and Vapi AI voice agents for interactive learning.",
+    image: "assets/EchoMind.gif", 
+    tags: ["Next.js", "TypeScript", "TailwindCSS", "Clerk", "Supabase", "Stripe", "Vapi", "AI Voice"],
+    demoUrl: "https://echo-mind-saas-app.vercel.app/",
+    githubUrl: "https://github.com/Harishanan/EchoMind-Saas-App",
   },
   {
     id: 3,
@@ -30,6 +30,15 @@ const projects = [
   },
   {
     id: 4,
+    title: "Microservice Task Management System",
+    description: "A microservices-based task management system with asynchronous communication using RabbitMQ, service decoupling, and MongoDB integration.",
+    image: "assets/TaskApp-MicroService.gif",
+    tags: ["Node.js", "Express", "MongoDB", "RabbitMQ", "Docker Compose"],
+    demoUrl: "https://github.com/Harishanan/Microservice-Task-App",
+    githubUrl: "https://github.com/Harishanan/Microservice-Task-App",
+  },
+  {
+    id: 5,
     title: "AI-Powered Gmail Extension",
     description: "A Chrome extension for AI-driven email drafting in Gmail, using React, Spring Boot, and Google Gemini API.",
     image: "assets/ai-email-assistant.gif",
@@ -38,7 +47,7 @@ const projects = [
     githubUrl: "https://github.com/Harishanan/AI-Email-Writer",
   },
   {
-    id: 5,
+    id: 6,
     title: "Gen AI: Image, Chat, and Recipe Generator",
     description: "An AI-powered app for generating images, chats, and personalized recipes, built with React, Spring Boot, and Open AI API.",
     image: "assets/Recipe Gen.gif",
@@ -47,7 +56,7 @@ const projects = [
     githubUrl: "#",
   },
   {
-  id: 6,
+  id: 7,
   title: "OAuth2 Login System",
   description: "A full-stack web app demonstrating secure OAuth2 authentication with GitHub and Google using Spring Boot and React.",
   image: "assets/OAuth2-Spring.gif", 
@@ -56,7 +65,7 @@ const projects = [
   githubUrl: "#",
   },
   {
-    id: 7,
+    id: 8,
     title: "Dr Knee Movo",
     description: "Wearable device tracking knee motion to aid rehabilitation using ESP32, sensors, and MATLAB.",
     image: "assets/DrKneeMovo.gif",
@@ -65,7 +74,7 @@ const projects = [
     githubUrl: "https://github.com/Harishanan/Knee-Range-of-Motion-Device",
   },
   {
-    id: 8,
+    id: 9,
     title: "Sushi Website",
     description: "A simple Sushi-themed landing page built to get hands-on practice with HTML and CSS",
     image: "assets/Sushi-website.gif",
